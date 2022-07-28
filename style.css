@@ -1,0 +1,167 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    background-color: #aeb6ce;
+}
+
+.container {
+    width: 450px;
+    height: 697px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+.image-block {
+    margin-bottom: 45px;
+}
+
+.order-info {
+    width: 354px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+.order-info h2 {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+
+
+    text-align: center;
+
+    color: #1F2E55;
+}
+
+.order-info p {
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+
+    text-align: center;
+
+    color: #717FA6;
+}
+
+.plan-info {
+    width: 354px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F9FF;
+    border-radius: 11px;
+    margin: 0 auto;
+}
+
+.icon {
+    margin-left: 24px;
+    margin-right: 20px;
+}
+
+.plan {
+    margin-right: 94px;
+    width: 92px;
+    height: 48px;
+}
+
+.annual {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #1F2E55;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #717FA6;
+}
+
+.change {
+    margin-right: 24px;
+
+}
+
+.change a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+
+    color: #382AE1;
+}
+
+.change a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.proceed {
+    padding: 15px 102px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    color: white;
+    border: none;
+
+}
+
+.proceed:hover {
+    cursor: pointer;
+    background-color: #766CF1;
+}
+
+
+
+.cancel {
+    text-decoration: none;
+    color: #717FA6;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: #1F2E55;
+}
+
+@media (max-width: 453px) {
+    .container {
+        width: 90%;
+        min-height: 20%;
+    }
+
+    .image-block img {
+        width: 100%;
+    }
+
+    .plan-info {
+        width: 90%;
+    }
+}
